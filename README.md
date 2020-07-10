@@ -16,22 +16,22 @@ source activate pgps
 
 2. Main packages' versions
 ```
-'gym==0.16.0' \
-'mujoco-py==2.0.2.9' \
-'torch==1.2.0+cu92' \
+'gym==0.16.0' 
+'mujoco-py==2.0.2.9' 
+'torch==1.2.0+cu92' 
 ```
 
 ### (Reference) SAC (rllab) envirionment
 ```
-environment_rllab.yml \
-'gym==0.10.0' \
-'mujoco-py==1.50.0.1' \
-'torch==1.2.0+cu92' \
+environment_rllab.yml 
+'gym==0.10.0' 
+'mujoco-py==1.50.0.1' 
+'torch==1.2.0+cu92' 
 ```
 
 The environment should be ready to run. See examples section for examples of how to train an agent and play the pretrained one.
 
-## Examples
+# Examples
 
 ### Experiment Environments
 'Hopper-v2' \
