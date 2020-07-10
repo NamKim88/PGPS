@@ -1,4 +1,4 @@
-name: mujoco
+name: pgps
 channels:
   - defaults
 dependencies:
@@ -89,5 +89,5 @@ dependencies:
     - wcwidth==0.1.8
     - webencodings==0.5.1
     - zipp==3.0.0
-prefix: /home/sdm/.conda/envs/mujoco
+prefix: /home/sdm/anaconda3/envs/pgps
 
