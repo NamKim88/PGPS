@@ -21,7 +21,7 @@ source activate pgps
 'torch==1.2.0+cu92' 
 ```
 
-### (Reference) SAC (rllab) envirionment
+#### (Reference) SAC (rllab) envirionment
 ```
 environment_rllab.yml 
 'gym==0.10.0' 
@@ -43,6 +43,11 @@ The environment should be ready to run. See examples section for examples of how
 ### Training an agent
 ```
 python Main.py -env_name "HalfCheetah-v2" -seed=1 -ada_steps -guided -q_surr
+```
+
+### Previous training results
+```
+'learning_curves' Folder
 ```
 
 ### Playing the pretrained agent
